@@ -54,7 +54,7 @@ export default function Reservation() {
   // Show success message instead of the form after submit
   if (submitted) {
     return (
-      <section id="reservation" className="py-24 px-5">
+      <section id="reservation" className="section-bg-warm py-24 px-5">
         <div className="max-w-xl mx-auto text-center bg-stone-900/70 border border-stone-800 rounded-3xl p-10">
           <CheckCircle className="mx-auto text-emerald-400" size={56} />
           <h2 className="mt-5 text-3xl font-extrabold">Reservation Requested!</h2>
@@ -76,7 +76,7 @@ export default function Reservation() {
   }
 
   return (
-    <section id="reservation" className="py-24 px-5">
+    <section id="reservation" className="section-bg-warm py-24 px-5">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-amber-400 font-semibold tracking-widest uppercase text-sm">Reservation</p>
@@ -84,7 +84,7 @@ export default function Reservation() {
           <p className="mt-4 text-stone-400">Choose your date, time and party size. We will confirm your booking.</p>
         </div>
 
-        <form onSubmit={handleSubmit} noValidate className="bg-stone-900/70 border border-stone-800 rounded-3xl p-6 md:p-10 grid md:grid-cols-2 gap-6">
+        <form onSubmit={handleSubmit} noValidate className="bg-stone-900/60 backdrop-blur-md border border-amber-500/20 rounded-3xl p-6 md:p-10 grid md:grid-cols-2 gap-6 shadow-2xl shadow-black/40">
           {/* Name */}
           <div>
             <label className="block text-sm font-semibold mb-2">Full Name *</label>

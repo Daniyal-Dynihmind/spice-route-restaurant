@@ -5,6 +5,9 @@ import Hero from './components/Hero'
 import Menu from './components/Menu'
 import Cart from './components/Cart'
 import Reservation from './components/Reservation'
+import Gallery from './components/Gallery'
+import Reviews from './components/Reviews'
+import Footer from './components/Footer'
 
 export default function App() {
   // Cart items: each item has id, name, price, image and quantity
@@ -54,6 +57,9 @@ export default function App() {
       <Hero />
       <Menu onAdd={handleAdd} />
       <Reservation />
+      <Gallery />
+      <Reviews />
+      <Footer />
 
       {/* Floating cart button, visible only when the cart has items */}
       {cartCount > 0 && (

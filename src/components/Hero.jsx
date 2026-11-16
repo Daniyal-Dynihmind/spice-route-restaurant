@@ -3,7 +3,6 @@ import { motion } from 'framer-motion'
 export default function Hero() {
   return (
     <section id="top" className="relative min-h-screen flex items-center">
-      {/* Background food image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -11,10 +10,8 @@ export default function Hero() {
             "url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=80')",
         }}
       />
-      {/* Dark overlay taake text parhna asan ho */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#120c0a] via-[#120c0a]/80 to-transparent" />
 
-      {/* motion.div: fade-in animation */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}

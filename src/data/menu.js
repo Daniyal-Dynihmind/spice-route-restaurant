@@ -1,4 +1,4 @@
-// All dishes data. To add a new dish, copy one object and change its values.
+// All dishes data. Images from Unsplash.
 export const categories = ['All', 'Starters', 'Mains', 'Desserts', 'Drinks']
 
 export const menuItems = [
@@ -9,7 +9,7 @@ export const menuItems = [
     price: 850,
     description: 'Smoky charcoal-grilled chicken marinated in yogurt and spices.',
     image: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=800&q=80',
-    popular: true, // Shows the "Popular" badge on the card
+    popular: true,
   },
   {
     id: 2,
