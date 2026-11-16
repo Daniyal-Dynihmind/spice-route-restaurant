@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Menu from './components/Menu'
 import Cart from './components/Cart'
+import Reservation from './components/Reservation'
 
 export default function App() {
   // Cart items: each item has id, name, price, image and quantity
@@ -52,8 +53,9 @@ export default function App() {
       <Navbar />
       <Hero />
       <Menu onAdd={handleAdd} />
+      <Reservation />
 
-      {/* Floating cart button, visible when there are items */}
+      {/* Floating cart button, visible only when the cart has items */}
       {cartCount > 0 && (
         <button
           onClick={() => setCartOpen(true)}
