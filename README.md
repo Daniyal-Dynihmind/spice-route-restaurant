@@ -2,7 +2,7 @@
 
 A modern, responsive restaurant website for a Pakistani and continental fine-dining restaurant. Guests can browse a digital menu, add dishes to a cart, send their order on WhatsApp, and reserve a table, all from one smooth single-page site.
 
-**Live Demo:** [https://YOUR-SPICE-ROUTE-LINK.vercel.app/](https://spice-route-restaurant-tan.vercel.app/)
+**Live Demo:** https://spice-route-restaurant-tan.vercel.app/
 
 ---
 
